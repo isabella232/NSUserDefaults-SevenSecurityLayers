@@ -64,7 +64,7 @@ static NSString * _userDefaultsHashKey;
     kStoredObjectKey = @"".s.t.o.r.e.d._O.b.j.e.c.t;
     SUITE_NAME = @"".c.o.m.dot.h.k.dot._S.e.v.e.n._S.e.c.u.r.i.t.y._L.a.y.e.r.s.dot.u.s.e.r.d.e.f.a.u.l.t.s;
     
-    _userDefaultsValueKey = @""._D.e.f.a.u.l.t.s._V.a.l.u.e.K.e.y;
+    _userDefaultsValueKey = @""._D.e.f.a.u.l.t.s._V.a.l.u.e._K.e.y;
     _userDefaultsHashKey = @""._D.e.f.a.u.l.t.s._H.a.s.h._K.e.y;
 }
 
