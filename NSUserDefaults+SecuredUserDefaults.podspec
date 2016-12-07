@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NSUserDefaults-SevenSecurityLayers"
-  s.version      = "1.0.0"
+  s.version      = "2.0.0"
   s.summary      = "A category which provides an encryption layer for NSUserDefaults to securely save data, just by one line of code."
   s.homepage     = "https://github.com/haikieu/NSUserDefaults-SevenSecurityLayers"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   
   s.requires_arc  = true
   s.platform = :ios
-  s.ios.deployment_target = '6.1'
+  s.ios.deployment_target = '8.0'
 
   s.dependency 'CocoaSecurity', '~> 1.2.1'
   s.dependency 'DKPassword', '~> 0.0'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'Classes/NSUserDefaults+*.{h,m}'
   s.source       = { 
-    :git => 'https://github.com/haikieu/NSUserDefaults-SevenSecurityLayers.git', 
+    :git => 'https://github.com/e-conomic/NSUserDefaults-SevenSecurityLayers.git', 
     :tag => s.version.to_s
   }
   
