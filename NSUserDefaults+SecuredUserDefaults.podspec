@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'CocoaSecurity', '~> 1.2.1'
   s.dependency 'DKPassword', '~> 0.0'
-  s.dependency 'UAObfuscatedString', '0.3.1'
   s.dependency 'crackify', '~> 0.0'
 
   s.source_files  = 'Classes/NSUserDefaults+*.{h,m}'
